@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from webql.sync_api.session import Session
 from webql.sync_api.web import PlaywrightWebDriver
 
-from login import login
+from login import *
 
 load_dotenv()
 
