@@ -8,6 +8,7 @@ This script helps you speed up your job searching process by fully automating th
 pip install -r requirements.txt
 ```
 
+- Run `playwright install` in your command line if you don't have Playwright already installed.
 - Rename the `.env.example` to `.env` and fill in the required configs.
 - Go to the `run.py` and replace the values of `SEARCH_KEYWORD` and `LOCATION_KEYWORD` for what you are searching for. Note that `SEARCH_KEYWORD` refers to the job title and `LOCATION_KEYWORD` refers to the location.
 - **Optional:** If you want to evaluate your resume for each job, upload a PDF version of your resume to the same folder where all the code is. Make sure the PDF file name is: "resume.pdf". 
